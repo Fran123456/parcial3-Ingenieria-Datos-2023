@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_WqiRUHXTEe69yNt2aLRaOA" name="dimAerolinea" dataPackage="_WqiRUXXTEe69yNt2aLRaOA" Server="Localhost 127.0.0.1" FilePath="G:/ues-parcial/archive/raw/out/Airlines-actual.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_WqiRUXXTEe69yNt2aLRaOA" name="default" dataManager="_WqiRUHXTEe69yNt2aLRaOA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_WqiRUnXTEe69yNt2aLRaOA" id="_TGmQgHXTEe69yNt2aLRaOA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqiRU3XTEe69yNt2aLRaOA" label="Id" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqiRVHXTEe69yNt2aLRaOA" label="Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqiRVXXTEe69yNt2aLRaOA" label="Description" length="45" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_J7eggHaeEe6P66KpkDiZgg" comment="connectionComment" label="connectionLabel" dataPackage="_J7eggXaeEe6P66KpkDiZgg" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_J7eggXaeEe6P66KpkDiZgg" dataManager="_J7eggHaeEe6P66KpkDiZgg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_J7eggnaeEe6P66KpkDiZgg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7egg3aeEe6P66KpkDiZgg" name="Year" id="7009" label="Year" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK4HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK4XaeEe6P66KpkDiZgg" name="Quarter" id="7010" label="Quarter" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK4naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK43aeEe6P66KpkDiZgg" name="Month" id="7011" label="Month" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK5HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK5XaeEe6P66KpkDiZgg" name="DayofMonth" id="7012" label="DayofMonth" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK5naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK53aeEe6P66KpkDiZgg" name="DayOfWeek" id="7013" label="DayOfWeek" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK6HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK6XaeEe6P66KpkDiZgg" name="FlightDate" id="7014" label="FlightDate" length="-1" sourceType="DATE" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;">
+        <initialValue xmi:id="_J7iK6naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK63aeEe6P66KpkDiZgg" name="Marketing_Airline_Network" id="7015" label="Marketing_Airline_Network" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK7HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK7XaeEe6P66KpkDiZgg" name="Operated_or_Branded_Code_Share_Partners" id="7016" label="Operated_or_Branded_Code_Share_Partners" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK7naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK73aeEe6P66KpkDiZgg" name="DOT_ID_Marketing_Airline" id="7017" label="DOT_ID_Marketing_Airline" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK8HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK8XaeEe6P66KpkDiZgg" name="IATA_Code_Marketing_Airline" id="7018" label="IATA_Code_Marketing_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK8naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK83aeEe6P66KpkDiZgg" name="Flight_Number_Marketing_Airline" id="7019" label="Flight_Number_Marketing_Airline" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK9HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK9XaeEe6P66KpkDiZgg" name="Originally_Scheduled_Code_Share_Airline" id="7020" label="Originally_Scheduled_Code_Share_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK9naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK93aeEe6P66KpkDiZgg" name="DOT_ID_Originally_Scheduled_Code_Share_Airline" id="7021" label="DOT_ID_Originally_Scheduled_Code_Share_Airline" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK-HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK-XaeEe6P66KpkDiZgg" name="IATA_Code_Originally_Scheduled_Code_Share_Airline" id="7022" label="IATA_Code_Originally_Scheduled_Code_Share_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK-naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK-3aeEe6P66KpkDiZgg" name="Flight_Num_Originally_Scheduled_Code_Share_Airline" id="7023" label="Flight_Num_Originally_Scheduled_Code_Share_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK_HaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK_XaeEe6P66KpkDiZgg" name="Operating_Airline" id="7024" label="Operating_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iK_naeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iK_3aeEe6P66KpkDiZgg" name="DOT_ID_Operating_Airline" id="7025" label="DOT_ID_Operating_Airline" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLAHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLAXaeEe6P66KpkDiZgg" name="IATA_Code_Operating_Airline" id="7026" label="IATA_Code_Operating_Airline" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLAnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLA3aeEe6P66KpkDiZgg" name="Tail_Number" id="7027" label="Tail_Number" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLBHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLBXaeEe6P66KpkDiZgg" name="Flight_Number_Operating_Airline" id="7028" label="Flight_Number_Operating_Airline" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLBnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLB3aeEe6P66KpkDiZgg" name="OriginAirportID" id="7029" label="OriginAirportID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLCHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLCXaeEe6P66KpkDiZgg" name="OriginAirportSeqID" id="7030" label="OriginAirportSeqID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLCnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLC3aeEe6P66KpkDiZgg" name="OriginCityMarketID" id="7031" label="OriginCityMarketID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLDHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLDXaeEe6P66KpkDiZgg" name="Origin" id="7032" label="Origin" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLDnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLD3aeEe6P66KpkDiZgg" name="OriginCityName" id="7033" label="OriginCityName" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLEHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLEXaeEe6P66KpkDiZgg" name="OriginState" id="7034" label="OriginState" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLEnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLE3aeEe6P66KpkDiZgg" name="OriginStateFips" id="7035" label="OriginStateFips" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLFHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLFXaeEe6P66KpkDiZgg" name="OriginStateName" id="7036" label="OriginStateName" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLFnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLF3aeEe6P66KpkDiZgg" name="OriginWac" id="7037" label="OriginWac" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLGHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLGXaeEe6P66KpkDiZgg" name="DestAirportID" id="7038" label="DestAirportID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLGnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLG3aeEe6P66KpkDiZgg" name="DestAirportSeqID" id="7039" label="DestAirportSeqID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLHHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLHXaeEe6P66KpkDiZgg" name="DestCityMarketID" id="7040" label="DestCityMarketID" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLHnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLH3aeEe6P66KpkDiZgg" name="Dest" id="7041" label="Dest" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLIHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLIXaeEe6P66KpkDiZgg" name="DestCityName" id="7042" label="DestCityName" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLInaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLI3aeEe6P66KpkDiZgg" name="DestState" id="7043" label="DestState" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLJHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLJXaeEe6P66KpkDiZgg" name="DestStateFips" id="7044" label="DestStateFips" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLJnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLJ3aeEe6P66KpkDiZgg" name="DestStateName" id="7045" label="DestStateName" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLKHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLKXaeEe6P66KpkDiZgg" name="DestWac" id="7046" label="DestWac" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLKnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLK3aeEe6P66KpkDiZgg" name="CRSDepTime" id="7047" label="CRSDepTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLLHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLLXaeEe6P66KpkDiZgg" name="DepTime" id="7048" label="DepTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLLnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLL3aeEe6P66KpkDiZgg" name="DepDelay" id="7049" label="DepDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLMHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLMXaeEe6P66KpkDiZgg" name="DepDelayMinutes" id="7050" label="DepDelayMinutes" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLMnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLM3aeEe6P66KpkDiZgg" name="DepDel15" id="7051" label="DepDel15" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLNHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLNXaeEe6P66KpkDiZgg" name="DepartureDelayGroups" id="7052" label="DepartureDelayGroups" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLNnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLN3aeEe6P66KpkDiZgg" name="DepTimeBlk" id="7053" label="DepTimeBlk" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLOHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLOXaeEe6P66KpkDiZgg" name="TaxiOut" id="7054" label="TaxiOut" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLOnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLO3aeEe6P66KpkDiZgg" name="WheelsOff" id="7055" label="WheelsOff" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLPHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLPXaeEe6P66KpkDiZgg" name="WheelsOn" id="7056" label="WheelsOn" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLPnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLP3aeEe6P66KpkDiZgg" name="TaxiIn" id="7057" label="TaxiIn" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLQHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLQXaeEe6P66KpkDiZgg" name="CRSArrTime" id="7058" label="CRSArrTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLQnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLQ3aeEe6P66KpkDiZgg" name="ArrTime" id="7059" label="ArrTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLRHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLRXaeEe6P66KpkDiZgg" name="ArrDelay" id="7060" label="ArrDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLRnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLR3aeEe6P66KpkDiZgg" name="ArrDelayMinutes" id="7061" label="ArrDelayMinutes" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLSHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLSXaeEe6P66KpkDiZgg" name="ArrDel15" id="7062" label="ArrDel15" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLSnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLS3aeEe6P66KpkDiZgg" name="ArrivalDelayGroups" id="7063" label="ArrivalDelayGroups" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLTHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLTXaeEe6P66KpkDiZgg" name="ArrTimeBlk" id="7064" label="ArrTimeBlk" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLTnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLT3aeEe6P66KpkDiZgg" name="Cancelled" id="7065" label="Cancelled" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLUHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLUXaeEe6P66KpkDiZgg" name="CancellationCode" id="7066" label="CancellationCode" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLUnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLU3aeEe6P66KpkDiZgg" name="Diverted" id="7067" label="Diverted" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLVHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLVXaeEe6P66KpkDiZgg" name="CRSElapsedTime" id="7068" label="CRSElapsedTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLVnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLV3aeEe6P66KpkDiZgg" name="ActualElapsedTime" id="7069" label="ActualElapsedTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLWHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLWXaeEe6P66KpkDiZgg" name="AirTime" id="7070" label="AirTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLWnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLW3aeEe6P66KpkDiZgg" name="Flights" id="7071" label="Flights" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLXHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLXXaeEe6P66KpkDiZgg" name="Distance" id="7072" label="Distance" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLXnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLX3aeEe6P66KpkDiZgg" name="DistanceGroup" id="7073" label="DistanceGroup" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLYHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLYXaeEe6P66KpkDiZgg" name="CarrierDelay" id="7074" label="CarrierDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLYnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLY3aeEe6P66KpkDiZgg" name="WeatherDelay" id="7075" label="WeatherDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLZHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLZXaeEe6P66KpkDiZgg" name="NASDelay" id="7076" label="NASDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLZnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLZ3aeEe6P66KpkDiZgg" name="SecurityDelay" id="7077" label="SecurityDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLaHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLaXaeEe6P66KpkDiZgg" name="LateAircraftDelay" id="7078" label="LateAircraftDelay" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLanaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLa3aeEe6P66KpkDiZgg" name="FirstDepTime" id="7079" label="FirstDepTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLbHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLbXaeEe6P66KpkDiZgg" name="TotalAddGTime" id="7080" label="TotalAddGTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLbnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLb3aeEe6P66KpkDiZgg" name="LongestAddGTime" id="7081" label="LongestAddGTime" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLcHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLcXaeEe6P66KpkDiZgg" name="DivAirportLandings" id="7082" label="DivAirportLandings" length="-1" sourceType="INT" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLcnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLc3aeEe6P66KpkDiZgg" name="DivReachedDest" id="7083" label="DivReachedDest" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLdHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLdXaeEe6P66KpkDiZgg" name="DivActualElapsedTime" id="7084" label="DivActualElapsedTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLdnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLd3aeEe6P66KpkDiZgg" name="DivArrDelay" id="7085" label="DivArrDelay" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLeHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLeXaeEe6P66KpkDiZgg" name="DivDistance" id="7086" label="DivDistance" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLenaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLe3aeEe6P66KpkDiZgg" name="Div1Airport" id="7087" label="Div1Airport" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLfHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLfXaeEe6P66KpkDiZgg" name="Div1AirportID" id="7088" label="Div1AirportID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLfnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLf3aeEe6P66KpkDiZgg" name="Div1AirportSeqID" id="7089" label="Div1AirportSeqID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLgHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLgXaeEe6P66KpkDiZgg" name="Div1WheelsOn" id="7090" label="Div1WheelsOn" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLgnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLg3aeEe6P66KpkDiZgg" name="Div1TotalGTime" id="7091" label="Div1TotalGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLhHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLhXaeEe6P66KpkDiZgg" name="Div1LongestGTime" id="7092" label="Div1LongestGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLhnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLh3aeEe6P66KpkDiZgg" name="Div1WheelsOff" id="7093" label="Div1WheelsOff" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLiHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLiXaeEe6P66KpkDiZgg" name="Div1TailNum" id="7094" label="Div1TailNum" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLinaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLi3aeEe6P66KpkDiZgg" name="Div2Airport" id="7095" label="Div2Airport" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLjHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLjXaeEe6P66KpkDiZgg" name="Div2AirportID" id="7096" label="Div2AirportID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLjnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLj3aeEe6P66KpkDiZgg" name="Div2AirportSeqID" id="7097" label="Div2AirportSeqID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLkHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLkXaeEe6P66KpkDiZgg" name="Div2WheelsOn" id="7098" label="Div2WheelsOn" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLknaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLk3aeEe6P66KpkDiZgg" name="Div2TotalGTime" id="7099" label="Div2TotalGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLlHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLlXaeEe6P66KpkDiZgg" name="Div2LongestGTime" id="7100" label="Div2LongestGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLlnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLl3aeEe6P66KpkDiZgg" name="Div2WheelsOff" id="7101" label="Div2WheelsOff" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLmHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLmXaeEe6P66KpkDiZgg" name="Div2TailNum" id="7102" label="Div2TailNum" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLmnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLm3aeEe6P66KpkDiZgg" name="Div3Airport" id="7103" label="Div3Airport" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLnHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLnXaeEe6P66KpkDiZgg" name="Div3AirportID" id="7104" label="Div3AirportID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLnnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLn3aeEe6P66KpkDiZgg" name="Div3AirportSeqID" id="7105" label="Div3AirportSeqID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLoHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLoXaeEe6P66KpkDiZgg" name="Div3WheelsOn" id="7106" label="Div3WheelsOn" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLonaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLo3aeEe6P66KpkDiZgg" name="Div3TotalGTime" id="7107" label="Div3TotalGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLpHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLpXaeEe6P66KpkDiZgg" name="Div3LongestGTime" id="7108" label="Div3LongestGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLpnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLp3aeEe6P66KpkDiZgg" name="Div3WheelsOff" id="7109" label="Div3WheelsOff" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLqHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLqXaeEe6P66KpkDiZgg" name="Div3TailNum" id="7110" label="Div3TailNum" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLqnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLq3aeEe6P66KpkDiZgg" name="Div4Airport" id="7111" label="Div4Airport" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLrHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLrXaeEe6P66KpkDiZgg" name="Div4AirportID" id="7112" label="Div4AirportID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLrnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLr3aeEe6P66KpkDiZgg" name="Div4AirportSeqID" id="7113" label="Div4AirportSeqID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLsHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLsXaeEe6P66KpkDiZgg" name="Div4WheelsOn" id="7114" label="Div4WheelsOn" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLsnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLs3aeEe6P66KpkDiZgg" name="Div4TotalGTime" id="7115" label="Div4TotalGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLtHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLtXaeEe6P66KpkDiZgg" name="Div4LongestGTime" id="7116" label="Div4LongestGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLtnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLt3aeEe6P66KpkDiZgg" name="Div4WheelsOff" id="7117" label="Div4WheelsOff" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLuHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLuXaeEe6P66KpkDiZgg" name="Div4TailNum" id="7118" label="Div4TailNum" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLunaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLu3aeEe6P66KpkDiZgg" name="Div5Airport" id="7119" label="Div5Airport" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLvHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLvXaeEe6P66KpkDiZgg" name="Div5AirportID" id="7120" label="Div5AirportID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLvnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLv3aeEe6P66KpkDiZgg" name="Div5AirportSeqID" id="7121" label="Div5AirportSeqID" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLwHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLwXaeEe6P66KpkDiZgg" name="Div5WheelsOn" id="7122" label="Div5WheelsOn" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLwnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLw3aeEe6P66KpkDiZgg" name="Div5TotalGTime" id="7123" label="Div5TotalGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLxHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLxXaeEe6P66KpkDiZgg" name="Div5LongestGTime" id="7124" label="Div5LongestGTime" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLxnaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLx3aeEe6P66KpkDiZgg" name="Div5WheelsOff" id="7125" label="Div5WheelsOff" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLyHaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLyXaeEe6P66KpkDiZgg" name="Div5TailNum" id="7126" label="Div5TailNum" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLynaeEe6P66KpkDiZgg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_J7iLy3aeEe6P66KpkDiZgg" name="Duplicate" id="7127" label="Duplicate" length="200" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_J7iLzHaeEe6P66KpkDiZgg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
